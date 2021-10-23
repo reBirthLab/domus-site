@@ -1,0 +1,149 @@
+* {font-size:100%; padding:0; margin:0;}
+TABLE {width:100%; border-collapse:collapse;} 
+TD {vertical-align:top;}
+A IMG {border:0;}
+IMG.png, #content IMG {behavior: url("https://domus-studio.onrender.com/png.htc");} 
+
+BODY {font-family:Trebuchet MS, Arial, Helvetica, sans-serif; font-size:12px; color:#fff; background:#070707 url(https://domus-studio.onrender.com/media/bg_shape.gif) no-repeat 50% top;}
+     BODY#splash {background-image:none; background-color:#1e1e1e;}
+A {color:#c6c6c6;}
+A:visited {color:#c6c6c6;}
+A:hover {color:#fff;}
+H1 {font-size:1.3em; color:#ffde00;}
+H2 {font-size:1.2em; font-weight:bold; color:#c6c6c6; line-height:1.3em; margin-bottom:.2em;}
+H3 {font-size:1.1em; margin-bottom:.2em;}
+.nav_left H3 {color:#ffde00;}
+P {line-height:1.4em; margin-bottom:.6em;}
+UL {margin-bottom:.6em;}
+UL LI {line-height:1.4em; list-style-type:none; background:url(https://domus-studio.onrender.com/media/bullet.gif) no-repeat left .6em; padding-left:1.1em; margin-bottom:.3em;}
+INPUT {border:0;}
+INPUT.txt {padding:.2em;}
+LABEL {margin-left:1em;}
+TEXTAREA {width:320px; height:130px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; font-size:1em; border:0; padding:.2em; padding-right:0;}
+
+#flashcontent { width:1200px; text-align:center; margin:0 auto;}
+#flashcontent IMG {margin-top:5em;}
+#flashcontent DIV {margin:2em 0;}
+
+.header, .middle, .copyright {width:1004px; margin:0 auto;}
+.l {width:169px; padding:14px 10px 0 41px;}
+.r {width:204px; padding-left:16px;}
+.c {width:564px;}
+
+.header .c {padding-top:65px;}
+.header .r {vertical-align:top;}
+
+UL.nav_lang {margin-top:10px; margin-left:-1px; //margin-left:0;}
+UL.nav_lang LI {display:inline; font-size:1.2em; background:none; padding-left:0; margin-right:15px;}
+UL.nav_lang A {text-decoration:none;}
+UL.nav_lang A:hover {color:#c6c6c6; text-decoration:underline;}
+
+.middle {margin-top:40px;}
+.middle .l {background:url(https://domus-studio.onrender.com/media/border_tl.gif) no-repeat left top;}
+.middle .preview {height:122px; vertical-align:bottom; background:url(https://domus-studio.onrender.com/media/border_bl.gif) no-repeat left bottom; padding:2em 0 10px 1px; //padding-bottom:6px;}
+.middle .c {background:url(https://domus-studio.onrender.com/media/border_br.gif) no-repeat left bottom;}    
+.middle .bg_upper {position:relative; top:0; background:url(https://domus-studio.onrender.com/media/border_tr.gif) no-repeat left top; padding:10px 9px 2.8em;}     
+.middle .content {padding:16px 20px 2.8em 40px;}
+     
+UL.nav_upper {float:right; margin:.2em 1em 1px 0; //margin-right:.25em;}
+UL.nav_upper LI {display:inline; background:none; padding:0 1px; margin-bottom:0;}
+UL.nav_upper LI A {color:#fff; text-decoration:none;}
+UL.nav_upper LI A:visited {color:#fff;}
+UL.nav_upper LI A:hover {text-decoration:underline;}
+UL.nav_upper LI A#active {text-decoration:underline;}
+
+UL.nav_main LI {list-style:none; background:none; padding-left:0; margin-bottom:.25em;}
+UL.nav_main LI A {font-family:Arial, Helvetica, sans-serif; font-size:1em; font-weight:bold; color:#fff; text-decoration:none; text-transform:uppercase;}
+UL.nav_main LI A:visited {color:#fff;}
+UL.nav_main LI A:hover {text-decoration:none;}
+.letter {color:#d81921;}
+
+UL.nav_left {margin-top:.5em;}
+UL.nav_left LI {list-style:none; line-height:1.3em; background:none; padding-left:0; margin:.3em 0 .6em;}
+UL.nav_left LI A {color:#fff; text-decoration:none;}
+UL.nav_left LI A:visited {color:#fff;}
+UL.nav_left LI A:hover {text-decoration:underline;}
+UL.nav_left LI A#active {text-decoration:underline;}
+.date {font-size:1em; color:#c6c6c6; margin-top:.7em; margin-bottom:.1em;}
+.l H3 {margin-top:.6em;}
+
+.photo {width:545px; height:360px;}
+
+UL.changer {margin-top:.8em; margin-bottom:0;}
+UL.changer LI {display:inline; background:none; padding-left:0; margin:0 .15em;}
+UL.changer LI A {color:#fff;}
+UL.changer LI A:visited {color:#fff;}
+UL.changer LI A:hover {color:#ffde00; text-decoration:none;}
+UL.changer LI A SPAN {background:#3b3a3a; border:1px solid #737373; padding:2px 11px;}
+UL.changer LI A#active {color:#ffde00;}
+
+.details {margin:1em 0 .4em;}
+
+.custom {margin-top:0;}
+.details TD {line-height:1.4em; padding-top:.1em; //padding-top:2px; padding-bottom:.4em;}
+.details .item {width:85px; font-size:1.1em; color:#c6c6c6; padding-top:0;}
+
+UL.files LI {list-style:none; background:url(https://domus-studio.onrender.com/media/doc.gif) no-repeat left top; padding-left:1.6em; margin-bottom:.4em; margin-left:0;}
+UL.files LI A {}
+UL.files LI A:visited {}
+
+.search {margin:2.5em 0 1em -2px; //margin-left:-5px;}
+.search * {float:left;}
+#search {height:14px; width:138px; border:1px solid #bfbfbf; border-left:0; padding-left:.1em; margin-top:3px; //margin-left:0;} /* test in IE7 */
+
+.content IMG {margin:.6em 1em .5em 0;}
+
+.comments {margin-top:1.3em;}
+.who {width:100%; color:#202020; background:#d1d1d1; padding:.1em .4em; margin-bottom:.5em;}
+.response {margin-bottom:1.2em;}
+.comments TD {padding-bottom:.8em;}
+.comments INPUT.txt {width:180px;}
+
+.copyright {font-size:.9em; margin:1em auto 30px;}
+.copyright .q {color:#b4b4b4;}
+.copyright .q A {color:#b4b4b4; text-decoration:underline;}
+.copyright .q A:visited {color:#b4b4b4;}
+.copyright .q A:hover {color:#fff;}
+.copyright P {//margin-bottom:25px;}
+
+.contacts {width:300px; margin-top:.5em; margin-bottom:-.4em;}
+.contacts TD {padding:2px 0;}
+.contacts H3 {font-size:1em; margin-bottom:0;}
+
+.nocomments {display:none;}
+
+/* content images floating */
+IMG.alignright {float:right; margin:.6em 0 .5em 1em;}
+IMG.alignleft {float:left;}
+IMG.aligncenter {display:block; margin:.6em auto .5em;}
+
+.t_team {height:543px; width:543px; /*position: relative; left:-31px;*/}
+.t_team IMG {border:none; margin:0;}
+
+/* 
+ * Skype button settings
+ */          
+#SkypeButton_Call_domus\2e studio_1_paraElement > a > img {
+    margin: 0 !important;
+    vertical-align:middle !important;
+}
+
+#post-85 > div > table > tbody > tr:nth-child(3) > td:nth-child(2) > p {
+    margin: 0 !important;
+
+}
+
+#SkypeButton_Call_domus\2e studio_1_paraElement {
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
